@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #253439;
+}
+
+.content {
+    color: white;
+}
+
+.inner-content {
+    background-color:#7C898B;
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    height: 85%;
+}
+
+.main-btn {
+    text-decoration: none;
+    padding: 10px;
+    width: 70%;
+    margin-left: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.input-btn input {
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.input-btn-opt {
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    background-color: #253439;
+    color: white;
+}
+
+.btn-row {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.check-btn {
+    margin: 10px;
+}
+
+.main-btn-sign {
+    color: white;
+    width: 213px;
+    height: 70px;
+    left: 326px;
+    top: 657px;
+    background: #253439;
+    box-shadow: 0px 4px 1px rgba(104, 52, 4, 0.87);
+    border-radius: 20px;
+}
+
+.google {
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.google-btn{
+    border: none;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.google-btn img {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* left side styling */
+.main-text {
+    color: #253439;
+}   
+
+.text-head {
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-para {
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-btn-main {
+    margin-top: 50px;
+}
+
+.text-btn {
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-btn span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
