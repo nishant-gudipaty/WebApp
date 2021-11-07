@@ -6,6 +6,7 @@ import LogIn from './LogIn';
 import SignUp from './SignUp';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './MainPage';
+import HomePage from './HomePage';
 
 const App = () => {
   return ( 
@@ -18,6 +19,7 @@ const App = () => {
             <Route exact path='/login' component={LogIn}/>
             <Route exact path='/signup' component={SignUp}/>
             <Route exact path='/mainpage' component={MainPage}/>
+            <Route exact path='/homepage' component={HomePage}/>
           </Switch>
         </div>
       </div>

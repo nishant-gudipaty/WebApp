@@ -6,7 +6,7 @@ const Home = () => {
             <h1 className = "home-title">Home Page</h1>
             <div className="page-links">
                 <Link to="/test">Test</Link>
-                <Link to="/MainPage">MainPage</Link>
+                <Link to="/mainpage">MainPage</Link>
             </div>
         </div>
      );
