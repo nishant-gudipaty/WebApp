@@ -1,5 +1,7 @@
-import './css/posts.css';
-import {Navbar} from 'react-bootstrap';
+// import './css/posts.css';
+import './css/posts2.css';
+import { Row, Col} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import {Container} from 'react-bootstrap';
 // importing images
@@ -7,79 +9,66 @@ import answerImg from './images/answer.png';
 import popularPostImg from './images/popular-post.png';
 import notificationImg from './images/notifications.png';
 import beyondClassImg from './images/beyond_class.png';
+import profileImg from './images/profile.png'
 import photoImg from './images/photo.png';
 import videoImg from './images/video.png';
+import textImg from './images/text.png'
+import createProfileImg from './images/createProfile.png'
 
 const Posts = () => {
     return ( 
         <div className="posts-content">
-            <Navbar className="navbar navbar-expand-lg">
-                <div>
-                    <ul className="navbar-nav">
-                        <Link className="navbar-brand" to = '#'><img src={beyondClassImg} alt="brand-logo"/></Link>
-                        <input className="" type="search" placeholder="Search" />
-                        <li className="nav-item"><Link className="nav-link active" href=""><img src={popularPostImg} alt="popular-post-img"/> Popular Post</Link></li>
-                        <li className="nav-item"><Link className="nav-link" href=""><img src={answerImg} alt="Answer-img"/> Answer</Link></li>
-                        <li className="nav-item"><Link className="nav-link" href=""><img src={popularPostImg} alt="popular-post-img"/><i className="fas fa-users"></i> Communities</Link></li>
-                        <li className="nav-item"><Link className="nav-link" href=""><img src={notificationImg} alt="Notifiactions-img"/> Notifications</Link></li>
-                        <li className="nav-item"><Link className="nav-link" href=""><img src={popularPostImg} alt="popular-post-img"/><i className="far fa-user-circle"></i> My Profile</Link></li>
-                    </ul>
-                </div>
+            <Navbar className='navbar-class'>
+                <Container>
+                    <Navbar.Brand href="#home"><img src={beyondClassImg} alt="brand-logo"/></Navbar.Brand>
+                    <Nav className="me-auto">
+                    <input className='input-class' placeholder='Search'/>
+                    <Nav.Link className='nav-item-class' href="#home"><img className='img-class' src={popularPostImg} alt="popular-post-img"/>Popular Post</Nav.Link>
+                    <Nav.Link className='nav-item-class' href="#features"><img src={answerImg} alt="Answer-img"/>Answer</Nav.Link>
+                    <Nav.Link className='nav-item-class' href="#pricing"><img src={popularPostImg} alt="popular-post-img"/>Communities</Nav.Link>
+                    <Nav.Link className='nav-item-class' href="#pricing"><img src={notificationImg} alt="Notifiactions-img"/>Notifications</Nav.Link>
+                    <Nav.Link className='nav-item-class' href="#pricing"><img src={popularPostImg} alt="popular-post-img"/>My Profile</Nav.Link>
+                    </Nav>
+                </Container>
             </Navbar>
-
-            <Container className='bg-dark'>
-                {/* Create post */}
-                <div className="posting-div grey" >
-                    <div className="create-post-div black">
-                        <img src={photoImg} alt='some-test'/>
-                        <i className="far fa-user-circle"></i>
-                        <input type="text" className="create-post black" placeholder="Create Post"/>
-                    </div>
-                    <div className="attach-file-div black">
-                        <Link className="attaching-link-1" href=""><img src={photoImg} alt="Photos-img"/> Photos</Link>
-                        <Link className="attaching-link-2" href=""><img src={videoImg} alt="Videos-img"/> Videos</Link>
-                        <Link className="attaching-link-3" href=""><img src={videoImg} alt="Videos-img"/> Text</Link>
-                    </div>
+            <Container fluid className='main-content'>
+                <div className='main-row-content d-flex justify-content-center'>
+                    <Row className='main-row-class'>
+                        <Col className='p-2'>
+                            <div className='upper-part'>
+                                <div className='row-content'>
+                                    <img src={profileImg} alt="profile-img"/>
+                                    <Link>Create Post</Link>
+                                </div>
+                                <div className='row-content text-center'>
+                                    <Link><img src={photoImg} alt="" /> Photos</Link>
+                                    <Link><img src={videoImg} alt="" /> Photos</Link>
+                                    <Link><img src={textImg} alt="" /> Photos</Link>
+                                </div>
+                            </div>
+                            <div className="text-box">
+                                <div className="top-part">
+                                    <img src={popularPostImg} alt="popular-post-img"/>
+                                    <h6 className="profile_name">Lakshaya Sharma  2 hours ago</h6>
+                                </div>
+                                <div className="middle-part"></div>
+                                <div className="last-part">hii</div>
+                            </div>
+                        </Col>
+                        <Col className='p-2'>
+                            <div className="community-div">
+                                <div className="recommandation">Recomanded Comunity</div>
+                                <div className="community">
+                                    <Link>Community 1</Link>
+                                    <Link>Community 2</Link>
+                                    <Link>Community 3</Link>
+                                    <Link>Community 4</Link>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
-
-                {/* <!-- Others-Posts Div -- */}
-                <div class="others-posts-div">
-                    <div class="post-owner">
-                        <img src={popularPostImg} alt="popular-post-img"/>
-                        <h4 className="profile_name">Lakshaya Sharma  2 hours ago</h4>
-                    </div>
-                    <div className="post-content grey">
-
-                    </div>
-                    <div className="post-engagement">
-
-                    </div>
-                </div>
-
-                <div class="community-div grey">
-                    <div class="community-count c-c-head black">
-                        <h4>Recommended Communities</h4>
-                    </div>
-                    <div class="community-count black">
-                        <h4>Community 1</h4>
-                    </div>
-                    <div class="community-count black">
-                        <h4>Community 2</h4>
-                    </div>
-                    <div class="community-count black">
-                        <h4>Community 3</h4>
-                    </div>
-                    <div class="community-count black">
-                        <h4>Community 4</h4>
-                    </div>
-                    <div class="community-count black">
-                        <h4>Community 5</h4>
-                    </div>
-                    <div class="community-count black">
-                        <h4>Community 6</h4>
-                    </div>
-                </div>
-            </Container>
+            </Container>        
 
         </div>
      );

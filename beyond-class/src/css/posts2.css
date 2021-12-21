@@ -1,0 +1,126 @@
+.input-class {
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row-content {
+    background: #253439;
+}
+
+.nav-item-class a{
+    color: black;
+    margin-left: 10px;
+}
+
+.main-content {
+    background: #253439;
+    padding: 20px;
+}
+
+.upper-part {
+    background: #899597;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px
+}
+
+.main-row-content {
+    justify-content: center;
+}
+
+.main-row-class {
+    width: 80%;
+}
+
+.row-content {
+    padding: 7px;
+    margin: 20px;
+    background-color: #253439;
+    box-shadow: 0px 4px 1px rgba(104, 52, 4, 0.87);
+    border-radius: 20px;
+}
+
+.row-content img {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.row-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.top-part {
+    display: flex;
+    background-color: #FAF2F2;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.top-part h6 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.top-part img {
+    height: 30px;
+    width: 30px;
+}
+
+.middle-part {
+    background-color:#899597;
+    height: 463px;
+}
+
+.last-part {
+    background-color: #FAF2F2;
+    margin-bottom: 51px;
+}
+
+/* community div styling */
+
+.community-div {
+    background-color: #899597;
+    padding: 10px;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.recommandation {
+    color: white;
+    text-align: center;
+    background-color: #253439;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.community a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #253439;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}

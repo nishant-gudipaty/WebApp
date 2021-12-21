@@ -7,10 +7,6 @@
     background-color: #253439;
 }
 
-.posts-content {
-    background-color: #253439;
-}
-
     /* Color CSS */
 .grey {
     background-color:  #899597;
@@ -90,4 +86,10 @@
     margin: 3% 3%;
     padding: 2% 2%;
     text-align: center;
+}
+
+/* community div styling */
+
+.community-div {
+    background-color: #899597;
 }
