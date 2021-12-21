@@ -1,0 +1,93 @@
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.content {
+    background-color: #253439;
+}
+
+.posts-content {
+    background-color: #253439;
+}
+
+    /* Color CSS */
+.grey {
+    background-color:  #899597;
+   
+}
+.black {
+    background-color:#253439 ;
+}
+    
+/* Post-Creation */
+.posting-div {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    width: 45%;
+}
+
+.create-post {
+    width: 90%;
+}
+.create-post-div {
+    margin: 3% 3% 1.5% 3%;
+    padding: 2% 4%;
+}
+.attach-file-div {
+    margin: 1.5% 3% 3% 3%;
+    text-align: center;
+    padding: 2% 0%;
+}
+.attaching-link-1 {
+    margin: 0% 6%;
+}
+.attaching-link-2 {
+    margin: 0% 6%;
+}
+.attaching-link-3 {
+    margin: 0% 6%;
+}
+
+/* Others-posts-div */
+.others-posts-div {
+    width: 45%;
+    height: 40%;
+    background-color: #FAF2F2;
+    position: absolute;
+    top: 51%;
+    left: 15%;
+}           
+
+.post-owner {
+    height: 12%;
+}
+.post-content {
+    height: 76%;
+}
+.post-engagement {
+    height: 12%;
+}
+.profile_name {
+    float: right;
+}
+/* Community-div */
+.community-div {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    width: 27%;
+    height: 55%;
+}                     
+
+.community-count {
+    margin: 0% 3%;
+    padding: 2% 8%;
+}
+
+.c-c-head {
+    margin: 3% 3%;
+    padding: 2% 2%;
+    text-align: center;
+}

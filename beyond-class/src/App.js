@@ -7,6 +7,8 @@ import SignUp from './SignUp';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './MainPage';
 import HomePage from './HomePage';
+import Posts from './Posts';
+import Forums from './Forums';
 
 const App = () => {
   return ( 
@@ -20,6 +22,8 @@ const App = () => {
             <Route exact path='/signup' component={SignUp}/>
             <Route exact path='/mainpage' component={MainPage}/>
             <Route exact path='/homepage' component={HomePage}/>
+            <Route exact path='/posts' component={Posts}/>
+            <Route exact path='/forums' component={Forums}/>
           </Switch>
         </div>
       </div>
